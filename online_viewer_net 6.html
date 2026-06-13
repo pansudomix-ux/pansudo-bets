@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PANSUDO BETS - Bolão do Brasil</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0d0d0d;
+    color:#fff;
+}
+
+header{
+    background:linear-gradient(90deg,#009c3b,#00006A);
+    padding:25px;
+    text-align:center;
+}
+
+header h1{
+    color:#fff;
+    font-size:3rem;
+}
+
+header p{
+    color:#fff;
+    font-weight:bold;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+.card{
+    background:#1a1a1a;
+    border:2px solid #ffdf00;
+    border-radius:15px;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+h2{
+    color:#ffdf00;
+    margin-bottom:15px;
+}
+
+.jogo{
+    text-align:center;
+    font-size:2rem;
+    margin:20px 0;
+}
+
+.formulario{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+input, select{
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.placar{
+    display:flex;
+    gap:10px;
+}
+
+button{
+    background:#009c3b;
+    color:white;
+    border:none;
+    padding:15px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#00b344;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#ffdf00;
+    color:#000;
+}
+
+th,td{
+    padding:12px;
+    border:1px solid #333;
+    text-align:center;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111;
+    margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>PANSUDO BETS</h1>
+    <p>Bolão Oficial do Jogo do Brasil 🇧🇷</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>⚽ Jogo da Rodada</h2>
+
+        <div class="jogo">
+            🇧🇷 Brasil x Marrocos 🇲🇦
+        </div>
+
+        <p><strong>Data:</strong> 13/06/2026</p>
+        <p><strong>Horário:</strong> 19:00</p>
+    </div>
+
+    <div class="card">
+        <h2>🎯 Faça seu Palpite</h2>
+
+        <form class="formulario">
+
+            <input type="text" placeholder="Seu nome completo">
+
+            <select>
+                <option>Jogador para marcar qualquer gol</option>
+                <option>Neymar Jr - BRA</option>
+                <option>Vini Jr - BRA</option>
+                <option>Raphinha - BRA</option>
+                <option>L. Paqueta - BRA</option>
+                <option>Endrick - BRA</option>
+                <option>Matheus Cunha - BRA</option>
+                <option>Igor Thiago - BRA</option>
+                <option>Danilo Santos - BRA</option>
+                <option>Marquinhos - BRA</option>
+                <option>Gabriel Magalhães - BRA</option>
+                <option>Casemiro - BRA</option>
+                <option>Fabinho - BRA</option>
+                <option>Bruno Guimarães - BRA</option>
+                <option>Douglas Santos - BRA</option>
+                <option>Gabriel Martinelli - BRA</option>
+                <option>Luiz Henrique - BRA</option>
+                <option>Brahim Diaz - MAR</option>
+                <option>Ez Abde - MAR</option>
+                <option>Ayoub El Kabbi - MAR</option>
+                <option>Sofyan Amrabat - MAR</option>
+                <option>Azzedine Ounahi - MAR</option>
+                <option>Ayyoub Bouaddi - MAR</option>
+                <option>Achraf Hakimi - MAR</option>
+                <option>Nayef Aguerd - MAR</option>
+                <option>Chadi Riad - MAR</option>
+                <option>Noussair Mazraoui - MAR</option>
+            </select>
+
+            <label>Placar Exato</label>
+
+            <div class="placar">
+                <input type="number" placeholder="Brasil">
+                <input type="number" placeholder="Marrocos">
+            </div>
+
+            <button type="submit">Enviar Palpite</button>
+
+        </form>
+    </div>
+
+    <div class="card">
+        <h2>🏆 Ranking</h2>
+
+        <table>
+            <tr>
+                <th>Posição</th>
+                <th>Nome</th>
+                <th>Pontos</th>
+            </tr>
+
+            <tr>
+                <td>1º</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>2º</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>3º</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>📋 Regras</h2>
+
+        <p>✅ Acertar  Jogador para marcar qualquer gol , e</p>
+        <br>
+        <p>✅ Acertar placar exato .</p>
+        <br>
+        <p>✅ Premiação será de acordo com o arrecardado, menos 10% do site.</p><br>
+        <p>✅ Dois acertos ou mais será divido o arrecardado do bolão</p><br>
+        <p>✅ Palpites encerram 15 minutos antes da partida</p>
+    </div>
+
+</div>
+
+<footer>
+    <h3>PANSUDO BETS</h3>
+    <p>Confiança & Credibilidade! 🇧🇷🔥</p>
+</footer>
+
+</body>
+</html>
+<div class="card">
+    <h2>💰 Pagamento via PIX</h2>
+
+    <p><strong>Beneficiário:</strong> Renan Felix De Castro - NuBank</p>
+
+    <input
+        type="text"
+        value="631.044.913-30"
+        id="pix"
+        readonly
+        style="width:100%;padding:12px;margin:10px 0;"
+    >
+
+    <button onclick="copiarPix()">Copiar Chave PIX</button>
+</div>
+
+<script>
+function copiarPix() {
+    let pix = document.getElementById("pix");
+    pix.select();
+    pix.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(pix.value);
+    alert("Chave PIX copiada!");
+}
+</script>
